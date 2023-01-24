@@ -1,0 +1,13 @@
+{
+    "name" : "Password Manager",
+    "version" : "0.2.1",
+    "manifest_version": 3,
+    "description": "Password Manager Extension",
+    "permissions": ["tabs", "scripting", "storage"],
+    "icons": {
+        "128": "./resources/logo.png"
+    },
+    "action": {
+        "default_popup": "./html/extension.html"
+    }
+}
